@@ -1,0 +1,54 @@
+Algoritmo "nome_sobrenome"
+
+Var
+
+ Sbruto:real
+ Sliquido:real
+ irrf:real
+ inss:real
+
+
+Inicio
+
+
+Escreval("qual seu salario bruto ?")
+leia(Sbruto)
+  se(Sbruto < 2112.01) entao
+  irrf <-0
+  senao
+    se(Sbruto <2826.66) entao
+    irrf <-158.40
+    senao
+        se(Sbruto < 3751.06) entao
+        irrf <- 370.40
+        senao
+          se(Sbruto < 4664.69) entao
+          irrf <- 651.73
+          senao
+          irrf <- 88.96
+
+
+  fimse
+   fimse
+    fimse
+     fimse
+
+  se(Sbruto < 1412.01) entao
+  inss <-0.075*Sbruto
+  senao
+    se(Sbruto < 2666.69) entao
+    inss <-0.09*Sbruto
+    senao
+      se(Sbruto < 4000.04) entao
+      inss <-0.12*Sbruto
+      senao
+      inss <- 0.14*Sbruto
+fimse
+ fimse
+  fimse
+ Sliquido <- Sbruto - irrf - inss
+ escreval("Seu salario liquido é:", Sliquido)
+ Escreval("com os seguintes impostos sendo cobrados:")
+ Escreval("IRRF:", irrf)
+ escreval("INSS:", inss)
+ FIMALGORITMO
