@@ -1,0 +1,13 @@
+Algoritmo "repite nome"
+
+Var
+
+x: inteiro
+
+Inicio
+
+para x de 1 ate 200 faca
+escreval("nathália")
+fimpara
+
+Fimalgoritmo
