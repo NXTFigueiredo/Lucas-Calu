@@ -1,0 +1,21 @@
+Algoritmo "nome e idade"
+
+Var
+
+nome: caractere
+idade: caractere
+x: inteiro
+
+Inicio
+
+Para x de 1 ate 5 faca
+ESCREVAL("Qual é o seu nome?")
+LEIA(nome)
+ESCREVAL ("Qual sua idade?")
+LEIA (idade)
+ESCREVAL ("nome = " , nome , ",idade = " , idade, "anos")
+ESCREVAL ()
+
+Fimpara
+
+Fimalgoritmo
